@@ -1,44 +1,18 @@
 # Summary
 
 [Introduction](introduction.md)
+[Les étapes de la modélisation 3D](tutoriels/etapes-modelisation-3d.md)
 
-# User guide
+# Modélisation formes prismatiques
 
-- [Getting started](guide/getting-started.md)
-- [A tour of the window](guide/ui-tour.md)
-- [Sketching and constraints](guide/sketching.md)
-- [Solid features](guide/features.md)
-- [Parameters and expressions](guide/parameters.md)
-- [Components and joints](guide/assemblies.md)
-- [Sheet metal](guide/sheet-metal.md)
-- [Plastic parts](guide/plastic.md)
-- [Import and export](guide/files.md)
-- [Keyboard shortcuts](guide/shortcuts.md)
-- [Updates and privacy](guide/updates.md)
-- [Troubleshooting: SolidCraft won't start](guide/troubleshooting.md)
-- [Driving SolidCraft with an AI agent (MCP)](guide/mcp.md)
-- [Agent chat](guide/agent-chat.md)
-- [Local models with the Assistant](guide/local-models.md)
+- [Modéliser un parallélépipède](tutoriels/parallelepipede.md)
+- [Modifier les dimensions d'un volume existant](tutoriels/modifier-volume.md)
+- [Faire une extrusion par enlèvement de matière](tutoriels/extrusion-enlevement-matiere.md)
+- [Mettre des contraintes géométriques](tutoriels/contraintes-geometriques.md)
+- [Réaliser des arrondis et des chanfreins](tutoriels/arrondis-et-chanfreins.md)
+- [Créer une apparence réaliste](tutoriels/apparence.md)
 
-# Developer guide
+# Modélisation formes cylindriques
 
-- [Contributing](dev/contributing.md)
-- [Command guides and community resources](dev/command-guides.md)
-- [Architecture](dev/architecture.md)
-- [UI kit](dev/ui-kit.md)
-- [Extensible library proposal](dev/libraries.md)
-  - [Local scalar libraries](dev/local-libraries.md)
-- [The command engine](dev/commands.md)
-  - [Command schemas](dev/schemas.md)
-- [The kernel boundary and truck](dev/kernel.md)
-- [Persistent naming](dev/naming.md)
-- [Test harnesses](dev/testing.md)
-- [Control protocol](dev/control-protocol.md)
-- [Reference tests](dev/oracle.md)
-- [Features](dev/features.md)
-- [STEP import](dev/step-import.md)
-
-# Reference
-
-- [Command reference](reference/commands.md)
-- [Glossary](reference/glossary.md)
+- [Réaliser un volume par révolution](tutoriels/volume-revolution.md)
+- [Réaliser une répétition circulaire](tutoriels/repetition-circulaire.md)
