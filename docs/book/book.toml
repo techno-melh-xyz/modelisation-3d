@@ -1,5 +1,5 @@
 [book]
-title = "Application de modélisation 3D"
+title = "Apprendre la modélisation 3D"
 description = "Guides et tutoriels de modélisation 3D."
 authors = ["SolidCraft contributors"]
 language = "fr"
@@ -10,6 +10,7 @@ build-dir = "../../target/book"
 create-missing = false
 
 [output.html]
+additional-css = ["custom.css"]
 git-repository-url = "https://github.com/techno-melh-xyz/modelisation-3d"
 edit-url-template = "https://github.com/techno-melh-xyz/modelisation-3d/edit/main/docs/book/{path}"
 site-url = "/"
