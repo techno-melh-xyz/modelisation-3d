@@ -1,0 +1,16 @@
+:root {
+    --content-max-width: 1000px;
+}
+
+h1 {
+    color: #1769aa;
+}
+
+h2 {
+    color: #2874a6;
+    border-bottom: 2px solid #ddd;
+}
+
+.chapter li a {
+    font-size: 15px;
+}
