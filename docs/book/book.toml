@@ -1,8 +1,8 @@
 [book]
-title = "SolidCraft"
-description = "An open-source parametric 3D CAD application in pure Rust: user guide and developer guide."
+title = "Application de modélisation 3D"
+description = "Guides et tutoriels."
 authors = ["SolidCraft contributors"]
-language = "en"
+language = "fr"
 src = "src"
 
 [build]
