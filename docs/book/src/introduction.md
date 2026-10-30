@@ -1,4 +1,3 @@
-
 <div class="legion-layout">
 
 <div class="legion-card">
