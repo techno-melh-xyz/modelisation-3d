@@ -1,6 +1,6 @@
 [book]
-title = "Apprendre la modélisation 3D"
-description = "Guides et tutoriels de modélisation 3D."
+title = "Dessins 2D et Modélisation 3D pour métallerie et tôlerie"
+description = "Tutoriels"
 authors = ["SolidCraft contributors"]
 language = "fr"
 src = "src"
@@ -10,9 +10,9 @@ build-dir = "../../target/book"
 create-missing = false
 
 [output.html]
-additional-css = ["src/custom-v2.css"]
-git-repository-url = "https://github.com/techno-melh-xyz/modelisation-3d"
-edit-url-template = "https://github.com/techno-melh-xyz/modelisation-3d/edit/main/docs/book/{path}"
+additional-css = ["src/custom-tolerie.css"]
+git-repository-url = "https://github.com/clossendiere/modelisation-3d"
+edit-url-template = "https://github.com/clossendiere/modelisation-3d/edit/main/docs/book/{path}"
 site-url = "/"
 no-section-label = false
 
@@ -22,7 +22,7 @@ enable = true
 [output.html.redirect]
 "/dev/mcp.html" = "../guide/mcp.html"
 "/dev/docs/oracle.html" = "../oracle.html"
-"/dev/README.html" = "https://github.com/techno-melh-xyz/modelisation-3d/blob/main/README.md"
-"/dev/ATTRIBUTION.html" = "https://github.com/techno-melh-xyz/modelisation-3d/blob/main/ATTRIBUTION.md"
-"/dev/AGENTS.html" = "https://github.com/techno-melh-xyz/modelisation-3d/blob/main/AGENTS.md"
-"/dev/ROADMAP.html" = "https://github.com/techno-melh-xyz/modelisation-3d/blob/main/ROADMAP.md"
+"/dev/README.html" = "https://github.com/clossendiere/modelisation-3d/blob/main/README.md"
+"/dev/ATTRIBUTION.html" = "https://github.com/clossendiere/modelisation-3d/blob/main/ATTRIBUTION.md"
+"/dev/AGENTS.html" = "https://github.com/clossendiere/modelisation-3d/blob/main/AGENTS.md"
+"/dev/ROADMAP.html" = "https://github.com/clossendiere/modelisation-3d/blob/main/ROADMAP.md"
