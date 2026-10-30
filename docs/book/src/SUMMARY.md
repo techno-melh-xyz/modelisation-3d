@@ -1,44 +1,23 @@
 # Summary
 
-[Introduction](introduction.md)
+[Introduction](introduction-tolerie.md)
 
-# User guide
+# Réaliser des dessins 2D pour de la découpe
 
-- [Getting started](guide/getting-started.md)
-- [A tour of the window](guide/ui-tour.md)
-- [Sketching and constraints](guide/sketching.md)
-- [Solid features](guide/features.md)
-- [Parameters and expressions](guide/parameters.md)
-- [Components and joints](guide/assemblies.md)
-- [Sheet metal](guide/sheet-metal.md)
-- [Plastic parts](guide/plastic.md)
-- [Import and export](guide/files.md)
-- [Keyboard shortcuts](guide/shortcuts.md)
-- [Updates and privacy](guide/updates.md)
-- [Troubleshooting: SolidCraft won't start](guide/troubleshooting.md)
-- [Driving SolidCraft with an AI agent (MCP)](guide/mcp.md)
-- [Agent chat](guide/agent-chat.md)
-- [Local models with the Assistant](guide/local-models.md)
+- [Réaliser le dessin d'une tôle de remplissage de portillon](tutoriels/tole-portillon.md)
+- [Exporter le dessin en deux esquisses pour les decoupes intérieures et extérieures](tutoriels/2-esquisses.md)
+- [Intégrer des dessins artistiques dans la tôle d'habillage d'un garde corps](tutoriels/habillage-garde-corps.md)
+- [Réaliser une platine avec différentes symétries](tutoriels/platine-symetries.md)
+- [Réaliser un modèle de platine paramétrable pour différentes roulettes](tutoriels/platine-roulettes.md)
+- [Réaliser une grille d'aération avec des répétitions linéaires](tutoriels/grille-repetition-lineaire.md)
+- [Réaliser une grille d'aération avec des remplissages de motifs ](tutoriels/grille-remplissage-motifs.md)
+- [Réaliser les trous de fixation d'une bride de fixation par répétition circulaire](tutoriels/bride-fixation.md)
+- [Réaliser une equerre de soudage](tutoriels/equerre-soudage.md)
 
-# Developer guide
+# Réaliser des modèles 3D de pièces de tôlerie
+[Les étapes de la modélisation 3D](tutoriels/etapes-modelisation-3d-tolerie.md)
+- [Réaliser un modèle 3D d'une equerre de fixation](tutoriels/equerre-fixation.md)
+- [Création du développé de l'equerre et exportation en DXF pour découpe](tutoriels/developpe-equerre.md)
 
-- [Contributing](dev/contributing.md)
-- [Command guides and community resources](dev/command-guides.md)
-- [Architecture](dev/architecture.md)
-- [UI kit](dev/ui-kit.md)
-- [Extensible library proposal](dev/libraries.md)
-  - [Local scalar libraries](dev/local-libraries.md)
-- [The command engine](dev/commands.md)
-  - [Command schemas](dev/schemas.md)
-- [The kernel boundary and truck](dev/kernel.md)
-- [Persistent naming](dev/naming.md)
-- [Test harnesses](dev/testing.md)
-- [Control protocol](dev/control-protocol.md)
-- [Reference tests](dev/oracle.md)
-- [Features](dev/features.md)
-- [STEP import](dev/step-import.md)
-
-# Reference
-
-- [Command reference](reference/commands.md)
-- [Glossary](reference/glossary.md)
+# Autre
+- [Commandes pour la mise à jour du mdbook](commandes-mdbook.md)

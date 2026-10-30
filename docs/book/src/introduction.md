@@ -1,37 +1,42 @@
-# SolidCraft
 
-SolidCraft is an open-source parametric 3D CAD application written in pure Rust.
-Sketch on a plane, constrain and dimension the sketch, turn profiles
-into solids with features on a timeline, and change a parameter to watch the whole timeline
-rebuild.
+<div class="legion-layout">
 
-![The sample plate in SolidCraft](generated/sample-plate.png)
+<div class="legion-card">
 
-It runs as:
+<div class="legion-label">Une nouvelle génération de logiciels de modélisation 3D grâce à l'IA</div>
 
-- a **desktop app** for Windows and Linux (egui + wgpu);
-- a **web app** in the browser (wasm, WebGPU or WebGL2), [try it here](app/);
-- a **headless CLI**, `solidcraft-cli`, that runs command scripts, measures and exports;
-- an **MCP server** that AI agents model with, headless or driving the running app.
+L'intelligence artificielle permet aujourd'hui d'analyser le fonctionnement interne de logiciels existants et d'accélérer considérablement la création d'alternatives libres et **open source**.
 
-Everything the user can do is a *command* with JSON parameters. The toolbar, the dialogs, scripts,
-the CLI, the control channel and MCP all run the same commands, so anything you can click you can
-also script, test or hand to an agent.
+Inspirée des meilleurs logiciels professionnels, [**Lg3D**](https://modelisation-3d.techno-melh.fr/app/) utilise des technologies web modernes comme le langage **Rust** pour fonctionner directement dans un navigateur web, sans installation sur l'ordinateur.
 
-SolidCraft is early. Sketching, solid modelling, parameters, components with joints, sheet metal
-and a plastic-enclosure subset work; surfaces, drawings, CAM and simulation are deferred. The
-[roadmap](https://github.com/bherbruck/solidcraft/blob/main/ROADMAP.md) has the details, and
-the [feature list](dev/features.md) lists every command by area, and the
-[reference tests](dev/oracle.md) check modelling results against analytic and FreeCAD values.
+Grâce à son code source ouvert, l'application peut être **adaptée aux besoins des élèves**. Conçue dès le départ pour pouvoir se connecter **aux IA génératives**, elle ouvre la voie à de nouvelles façons de modéliser en 3D : avec la souris, comme dans les logiciels traditionnels, mais également à partir de simples instructions écrites ou orales.
 
-New designs are saved as `.sc`. Existing `.solidcraft` designs still open, and Save keeps their name; `solidcraft-cli` commands keep their names and behavior.
+<a class="legion-launch" href="https://modelisation-3d.techno-melh.fr/app/" target="_blank" rel="noopener noreferrer">Découvrir Lg3D ↗</a>
 
-This book has two halves: the **user guide** for people modelling with SolidCraft, and the
-**developer guide** for people working on it. The [command reference](reference/commands.md) is
-generated from the code on every build.
+</div>
 
-SolidCraft is licensed MIT OR Apache-2.0. It is independent: behaviour is designed from public
-documentation, general CAD conventions and user feedback, and reference tests use analytic
-values and open-source tools. SolidCraft is not affiliated with Autodesk, Dassault Systèmes,
-PTC or any other CAD vendor; product names such as Fusion, SolidWorks and Onshape are trademarks of
-their respective owners, named only to describe compatibility.
+
+
+<div class="legion-sidebar">
+
+<a class="legion-logo-link" href="https://modelisation-3d.techno-melh.fr/app/" target="_blank" rel="noopener noreferrer" title="Ouvrir Lh3D">
+<img src="images/logo-lh3d-v2.png" alt="Logo de l'application Lh3D">
+</a>
+<div class="legion-features">
+<div class="legion-features-title">Lh3D en bref</div>
+<ul>
+<li><strong class="avec-fleche">100 % web</strong> Accessible directement en ligne.</li>
+<li><strong>Technologies récentes</strong><br>Programmé en langage RUST, peut être connecté à des IA.</li>
+<li><strong class="avec-fleche">Opensource</strong>Code modifiable selon les besoins.</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div class="history-card">
+
+<div class="history-label">Un peu d'histoire...</div>
+
+![De l'ENIAC à l'IA : 80 ans d'histoire de la programmation](images/de-eniac-a-ia.png)
+</div>
