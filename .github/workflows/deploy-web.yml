@@ -56,8 +56,8 @@ jobs:
           echo "=== Recherche de index.html ==="
           find dist -name "index.html" -print
 
-          if [ ! -f dist/index.html ]; then
-            echo "ERREUR : dist/index.html introuvable"
+          if [ ! -f dist/web/index.html ]; then
+            echo "ERREUR : dist/web/index.html introuvable"
             exit 1
           fi
 
